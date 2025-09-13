@@ -50,8 +50,8 @@
         <description lang="fr">Arctic: Zephyr - Martian est basé sur le skin original Arctic: Zephyr, créé par jurialmunkey et son extension par beatmasterRS. Arctic se focalise sur le fait d'être simple, claire et minimaliste.</description>
         <description lang="zh_CN">Arctic: Zephyr - Martian 是基于 jurialmunkey 所创 Arctic 皮肤的第三个版本，以及 beatmasterRS 对该皮肤的扩展版本。Arctic 系列皮肤主打简洁、干净且简约的风格，并略带独特设计巧思。</description>
     </extension>
-</addon><addon id="repository.martian" name="Martian Add-on repository" version="1.0.0" provider-name="martian89">
-    <extension point="xbmc.addon.repository" name="Martian Add-on repository">
+</addon><addon id="repository.martian" name="Martian Addon Repository" version="1.0.0" provider-name="martian89">
+    <extension point="xbmc.addon.repository" name="Martian Addon Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/martian89/repository.martian/master/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/martian89/repository.martian/master/repo/zips/addons.xml.md5</checksum>
@@ -59,7 +59,7 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Martian Add-on repository</summary>
+        <summary>Martian Addon Repository</summary>
         <description>A repository for the Arctic: Zephyr (martian) skin.</description>
         <disclaimer />
         <platform>all</platform>
