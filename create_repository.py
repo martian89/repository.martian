@@ -83,7 +83,7 @@ METADATA_BASENAMES = (
     'icon.png',
     'fanart.jpg',
     'LICENSE.txt')
-
+RESOURCES_DIR = 'resources/'
 
 # The specification for version numbers is at http://semver.org/.
 # The Kodi documentation at
@@ -171,7 +171,11 @@ def copy_metadata_files(source_folder, addon_target_folder, addon_metadata):
             shutil.copyfile(
                 source_path,
                 os.path.join(addon_target_folder, target_basename))
-
+        elif os.path.isdir(source_path):
+            shutil.copytree(
+                source_path,
+                os.path.join(addon_target_folder, target_basename))
+            
 
 def on_remove_error(function, path, excinfo):
     exc_info_value = excinfo[1]
@@ -303,6 +307,26 @@ def fetch_addon_from_zip(raw_addon_location, target_folder):
             ) as target_file:
                 shutil.copyfileobj(source_file, target_file)
 
+        # Now copy resource dir if it exists
+        resources = zipfile.Path(archive, get_posix_path(os.path.join(root, RESOURCES_DIR)))
+
+        if resources.is_dir():
+            # Copy the resource files.
+            resources_target_folder = os.path.join(addon_target_folder, RESOURCES_DIR)
+            if not os.path.isdir(resources_target_folder):
+                os.mkdir(resources_target_folder)
+                
+            for resource in resources.iterdir():    
+                try:
+                    source_file = resource.open('rb');
+                except TypeError:
+                    continue
+                with open(
+                    os.path.join(resources_target_folder, resource.name),
+                    'wb',
+                ) as target_file:
+                    shutil.copyfileobj(source_file, target_file)
+            
     # Copy the archive.
     archive_basename = get_archive_basename(addon_metadata)
     archive_path = os.path.join(addon_target_folder, archive_basename)
