@@ -89,7 +89,7 @@ RESOURCES_DIR = 'resources/'
 # The Kodi documentation at
 # http://kodi.wiki/index.php?title=Addon.xml&oldid=128873#How_versioning_works
 # adds a twist by recommending a tilde instead of a hyphen.
-VERSION_PATTERN = (r'^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)'
+VERSION_PATTERN = (r'^(0|[1-9]\d*)\.(0|[1-9]\d*)(\.(0|[1-9]\d*))?'
                    r'(?:[-~]((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)'
                    r'(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?'
                    r'(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$')
