@@ -1,0 +1,3 @@
+[submodule "repo/screensaver.arctic.mirage"]
+	path = repo/screensaver.arctic.mirage
+	url = git@github.com:drinfernoo/screensaver.arctic.mirage.git
