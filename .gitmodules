@@ -1,3 +1,6 @@
 [submodule "repo/screensaver.arctic.mirage"]
 	path = repo/screensaver.arctic.mirage
 	url = git@github.com:drinfernoo/screensaver.arctic.mirage.git
+[submodule "repo/script.arctic.zephyr.martian.autocolors"]
+	path = repo/script.arctic.zephyr.martian.autocolors
+	url = git@github.com:martian89/script.arctic.zephyr.martian.autocolors.git
