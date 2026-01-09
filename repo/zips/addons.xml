@@ -51,10 +51,26 @@
         <description lang="fr">Arctic: Zephyr - Martian est basé sur le skin original Arctic: Zephyr, créé par jurialmunkey et son extension par beatmasterRS. Arctic se focalise sur le fait d'être simple, claire et minimaliste.</description>
         <description lang="zh_CN">Arctic: Zephyr - Martian 是基于 jurialmunkey 所创 Arctic 皮肤的第三个版本，以及 beatmasterRS 对该皮肤的扩展版本。Arctic 系列皮肤主打简洁、干净且简约的风格，并略带独特设计巧思。</description>
     </extension>
+</addon><addon id="script.module.astral" name="astral" version="3.2" provider-name="semool">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.backports.zoneinfo" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Astral for Python</summary>
+		<description lang="en_GB">Astral is a python package for calculating the times of various aspects of the sun and phases of the moon</description>
+		<platform>all</platform>
+		<license>MIT</license>
+		<website>https://pypi.org/project/astral</website>
+		<source>https://github.com/sffjunkie/astral</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
 </addon><addon id="script.arctic.zephyr.martian.autocolors" name="Automatic Day and Night Colors" version="1.0.0" provider-name="semool, martian89">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
-        <import addon="skin.arctic.zephyr.martian" version="3.18.0~beta" />
 		<import addon="script.module.simplecache" version="2.0.2" />
 		<import addon="script.module.requests" version="2.0.31.0" />
 		<import addon="script.module.astral" version="3.2" />

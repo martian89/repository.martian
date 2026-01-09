@@ -4,3 +4,6 @@
 [submodule "repo/script.arctic.zephyr.martian.autocolors"]
 	path = repo/script.arctic.zephyr.martian.autocolors
 	url = git@github.com:martian89/script.arctic.zephyr.martian.autocolors.git
+[submodule "repo/script.module.astral"]
+	path = repo/script.module.astral
+	url = https://github.com/semool/script.module.astral.git

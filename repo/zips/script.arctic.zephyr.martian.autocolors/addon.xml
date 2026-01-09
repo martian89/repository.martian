@@ -2,7 +2,6 @@
 <addon id="script.arctic.zephyr.martian.autocolors" name="Automatic Day and Night Colors" version="1.0.0" provider-name="semool, martian89">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
-        <import addon="skin.arctic.zephyr.martian" version="3.18.0~beta"/>
 		<import addon="script.module.simplecache" version="2.0.2"/>
 		<import addon="script.module.requests" version="2.0.31.0"/>
 		<import addon="script.module.astral" version="3.2"/>
