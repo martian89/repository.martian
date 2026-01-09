@@ -68,7 +68,7 @@
 			<icon>icon.png</icon>
 		</assets>
 	</extension>
-</addon><addon id="script.arctic.zephyr.martian.autocolors" name="Automatic Day and Night Colors" version="1.0.0" provider-name="semool, martian89">
+</addon><addon id="script.arctic.zephyr.martian.autocolors" name="Automatic Day and Night Colors" version="1.0.1" provider-name="semool, martian89">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
 		<import addon="script.module.simplecache" version="2.0.2" />
@@ -87,8 +87,8 @@
 		<source>https://github.com/martian89/script.arctic.zephyr.martian.autocolors</source>
 		<license>GNU GENERAL PUBLIC LICENSE Version 3</license>
 		<assets>
-			<icon>resources/images/icon.png</icon>
-			<fanart>resources/images/fanart.jpg</fanart>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
 </addon><addon id="screensaver.arctic.mirage" name="Arctic Mirage" version="1.8" provider-name="drinfernoo">
