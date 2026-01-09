@@ -87,7 +87,7 @@
             <fanart>fanart.png</fanart>
         </assets>
     </extension>
-</addon><addon id="repository.martian" name="Martian Addon Repository" version="1.0.1" provider-name="martian89">
+</addon><addon id="repository.martian" name="Martian Addon Repository" version="1.0.2" provider-name="martian89">
     <extension point="xbmc.addon.repository" name="Martian Addon Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/martian89/repository.martian/master/repo/zips/addons.xml</info>
