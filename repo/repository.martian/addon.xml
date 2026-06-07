@@ -8,12 +8,12 @@
         </dir>
         <dir minversion="20.9.1" maxversion="21.9.0">
             <info compressed="false">https://raw.githubusercontent.com/martian89/repository.martian/master/omega/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/martian89/repository.martian/master/repo/omega/addons.xml.md5</checksum>
+            <checksum>https://raw.githubusercontent.com/martian89/repository.martian/master/repo/omega/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/martian89/repository.martian/master/omega/zips/</datadir>
         </dir>
         <dir minversion="21.9.1">
             <info compressed="false">https://raw.githubusercontent.com/martian89/repository.martian/master/piers/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/martian89/repository.martian/master/repo/piers/addons.xml.md5</checksum>
+            <checksum>https://raw.githubusercontent.com/martian89/repository.martian/master/repo/piers/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/martian89/repository.martian/master/piers/zips/</datadir>
         </dir>
     </extension>
