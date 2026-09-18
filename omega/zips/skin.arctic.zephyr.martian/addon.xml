@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.arctic.zephyr.martian" version="3.20.0" name="Arctic: Zephyr (martian)" provider-name="jurialmunkey, beatmasterrs, martian89">
+<addon id="skin.arctic.zephyr.martian" version="3.20.1" name="Arctic: Zephyr (martian)" provider-name="jurialmunkey, beatmasterrs, martian89">
     <requires>
         <import addon="xbmc.gui" version="5.17.0"/>
         <import addon="script.skinvariables" version="2.1.33" />
@@ -31,6 +31,18 @@
             <screenshot>resources/screenshot-10.jpg</screenshot>
         </assets>
         <news>
+[B]3.20.1[/B]
+- Updated default powermenu
+- Adjusted vertical position of home menu icons
+- Replaced panel controls with lists in all list views
+- Added missing sets indicator to cleanflix home menu
+- Fixed conditions for watched / unwatched indicators
+- Fixed priority of unwatched indicators
+- Fixed visibility of RebootToAndroid power menu item
+- Fixed missing message label for "Fullsize Fanart"
+- Fixed scrolling bug in list views with extended info
+- Fixed missing monochrome icon for Rotten Tomatoes certified hot
+
 [B]3.20.0[/B]
 - Added skin color theme setting to skin settings (requires script.skin.info.service)
 - Implemented fallback to season/tvshow fanart for unwatched episodes
